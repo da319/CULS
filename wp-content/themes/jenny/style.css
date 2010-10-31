@@ -1,0 +1,29 @@
+/*
+Theme Name: Jenny
+Theme URI: http://www.speckygeek.com/wordpress-themes/
+Description: A premium-quality, highly customizable WordPress theme. Multiple colour schemes, supports widgets, SEO-optimized, fast to load and no plugins required. Works in WordPress 3.0 and superior. Works in all versions of Firefox, Chrome, Opera and Safari and Internet Explorer 6 and higher. 
+Version: 1.4.1
+Author: Pritam P Hans
+Author URI: http://www.speckygeek.com
+Tags: blue, black, red, light, two-columns, fixed-width, threaded-comments, custom-header, custom-menu, custom-background, sticky-post, theme-options, editor-style
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*Actual StyleSheets are in Styles Folder*/
+
+.aligncenter {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.alignleft {
+	margin-right: 15px;
+	float: left;
+}
+
+.alignright {
+	margin-left: 15px;
+	float: right;
+}

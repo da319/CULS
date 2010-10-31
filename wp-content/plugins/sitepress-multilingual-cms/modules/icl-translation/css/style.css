@@ -1,0 +1,21 @@
+.icl-tr-details{
+    display: none;
+    padding-top: 5px;
+}
+.icl-tr-details .widefat th{
+    padding-top:2px !important;
+    padding-bottom:2px !important;
+}
+.form-table td, .form-table th{
+    border-bottom:none;
+}
+.icl_progress{
+    height:16px;
+    background-color: #ff9c72;
+    border:1px solid #ff6a2b;
+    float:left;
+    color:#fff;
+    display:none;
+    padding: 0 3px 0 3px;
+    text-align:left;    
+}
