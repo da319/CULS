@@ -6,6 +6,8 @@
  * @package pomo
  * @subpackage mo
  */
+ 
+//ini_set("memory_limit","12M");
 
 require_once dirname(__FILE__) . '/translations.php';
 require_once dirname(__FILE__) . '/streams.php';

@@ -20,12 +20,15 @@ define('DB_NAME', 'culs');
 
 /** MySQL database username */
 define('DB_USER', 'culs');
+//define('DB_USER', 'da319');
 
 /** MySQL database password */
+//define('DB_PASSWORD', 'Aediobei');
 define('DB_PASSWORD', 'mypass');
 
 /** MySQL hostname */
 define('DB_HOST', '79.98.25.182');
+//define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -88,3 +91,6 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+// more memory
+//define('WP_MEMORY_LIMIT', '64M');

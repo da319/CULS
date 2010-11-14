@@ -249,3 +249,15 @@ msgstr "Pavardė"
 msgid "Name"
 msgstr "Vardas"
 
+msgid "Login"
+msgstr "Prisijungti"
+
+msgid "Logout"
+msgstr "Atsijungti"
+
+msgid "Preferences"
+msgstr "Nustatymai"
+
+msgid "Cambridge University Lithuanian Society"
+msgstr "Kembridžo Universiteto Lietuvių Bendruomenė"
+

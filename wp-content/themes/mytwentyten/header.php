@@ -58,7 +58,7 @@
 		<div id="masthead">
 			<div id="branding" role="banner">
 				<?php $heading_tag = ( is_home() || is_front_page() ) ? 'h1' : 'div'; ?>
-				<<?php echo $heading_tag; ?> id="site-title">
+				<<?php echo $heading_tag; ?> id="site-title" style="width:650px">
 					<span>
 						<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 					</span>
@@ -69,9 +69,10 @@
 						get_currentuserinfo();
 						if (is_user_logged_in()) {
 							echo $current_user->display_name . ' | ';
-							echo '<a href="' . wp_logout_url( get_permalink() ) . '" title="Logout">Logout</a>';
+							echo '<a href="' . get_admin_url () . '" title="' . __('Preferences', 'twentyten') . '">' . __('Preferences', 'twentyten') . '</a> | ';
+							echo '<a href="' . wp_logout_url( get_permalink() ) . '" title="' . __('Logout', 'twentyten') . '">' . __('Logout', 'twentyten') . '</a>';
 						} else {
-							echo '<a href="' . wp_login_url( get_permalink() ) . '" title="Login">Login</a>';
+							echo '<a href="' . wp_login_url( get_permalink() ) . '" title="' . __('Login', 'twentyten') . '">' . __('Login', 'twentyten') . '</a>';
 						}
 					?>
 				</div>
