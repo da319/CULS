@@ -36,6 +36,10 @@
 				</a>
 			</div> --><!-- #site-generator -->
 			
+			<div style="font-family:'Helvetica Neue', Arial, Helvetica, 'Nimbus Sans L', sans-serif; clear: right; float: right;">
+				&copy; 2010 CULS
+			</div>
+			
 		</div><!-- #colophon -->
 	</div><!-- #footer -->
 
