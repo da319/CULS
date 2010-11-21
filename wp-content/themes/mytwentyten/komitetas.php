@@ -40,7 +40,7 @@ get_header(); ?>
 					</div><!-- .entry-content -->
 					<table>
 						<tr>
-							<?php get_committee_entry('pl312', 'Prezidentas') ?>
+							<?php get_committee_entry('povilas', 'Prezidentas') ?>
 							<?php get_committee_entry('gp329', 'Sekretorius') ?>
 							<?php get_committee_entry('pb475', 'Viceprezidentas') ?>
 						</tr>
