@@ -35,6 +35,8 @@ The full copy of the GNU General Public License is available here: http://www.gn
 
 */
 
+$FS_CHMOD_DIR = 775;
+
 // added for WordPress >=2.5 compatibility
 global $wpdb, $old_wpdb_data_table, $wpdb_data_table, $old_wpdb_fields_table, $wpdb_fields_table, $wpdb_wp_fields_table, $cimy_uef_options, $cimy_uef_version, $cuef_upload_path, $cimy_uef_domain, $cimy_uef_plugins_dir;
 
