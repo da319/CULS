@@ -1,0 +1,71 @@
+body.tutorial {
+	background-color: #EEEEEE;
+	
+}
+
+div.main {
+	padding: 25px;
+	margin: 0px auto;
+	width: 700px;
+	background-color: white;
+}
+
+h2 {
+	padding: 25px 0px 10px 0px;
+}
+
+td.description {
+	padding: 10px;
+	vertical-align: top;
+	/* font-family: Georgia, 'Bitstream Charter', serif; */
+	font-family: Arial, sans-serif;
+	background-color: white;
+	text-align: justify;
+	font-size: medium;
+}
+
+td.image {
+	padding: 10px;
+	background-color: white;
+}
+
+table.steplist {
+	border-width:0px 1px;
+	border-style: solid;
+	border-color: gray;
+	border-spacing: 0px 1px;
+	background-color: gray;
+}
+
+div.footer {
+	padding: 20px 0px 0px 0px;
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: small;
+	text-align: center;
+}
+
+div.header {
+	text-align: center;
+}
+
+ul.menu {
+	text-align: left;
+}
+
+input.tabbutton
+{
+   background-color: #000000;
+   color: #BBBBBB;
+   border-style: none;
+   padding: 0px 10px;
+   height: 30px;
+}
+
+form.tabs {
+	text-align: left;
+}
+
+table.tabs {
+	background-color:#000000;
+	width: 100%;
+}
