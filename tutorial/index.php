@@ -68,7 +68,7 @@ function tabButton($caption, $name) {
 			<h2><a name="pridejimas"/>Naujienos pridėjimas</h2>
 			<table class="steplist">
 			<?php
-				entry('step1.gif', 'Norėdami pridėti naujieną meniu juostoje pasirinkite <b>Add New</b>.');
+				entry('step1.gif', 'Norėdami pridėti naujieną, meniu juostoje pasirinkite <b>Add New</b>.');
 				entry('step2.gif', 'Įveskite naujienos pavadinimą.');
 				entry('step3.gif', 'Įveskite naujienos tekstą.');
 				entry('step4.gif', '<b>Discussion</b> skiltyje nužymėkite <b>Allow trackbacks ...</b> ' .
@@ -82,7 +82,7 @@ function tabButton($caption, $name) {
 								   '<li><b>Publish</b> - įdeda naujieną į CULS puslapį.</li>' .
 								   '</ul>');
 				entry('step9.gif', 'Įvedę lietuvišką naujieną <b>Lanuage</b> skiltyje prie <b>English</b> paspauskite <b>add</b>. '.
-								   'Atsivers langas, kur galėsite įvesti anglišką naujienos vertima. Visi žingsniai tokie patys ' .
+								   'Atsivers langas, kur galėsite įvesti anglišką naujienos vertimą. Visi žingsniai tokie patys ' .
 								   'kaip ir lietuviškame variante.');
 				entry('step10.gif','Jei ką nors pakeitėte jau publikuotoje naujienoje <b>Publish</b> skiltyje spauskite <b>Update</b>.');
 			?>
