@@ -29,12 +29,13 @@ get_header(); ?>
 					<div class="entry-content">
 						<?php the_content(); ?>
 						<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
-						<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 					</div><!-- .entry-content -->
+					<div class="entry-utility">
+						<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span> <span class="meta-sep">|</span>' ); ?>
+						<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'twentyten' ), __( '1 Comment', 'twentyten' ), __( '% Comments', 'twentyten' ) ); ?></span> 
+					</div><!-- .entry-utility -->
 				</div><!-- #post-## -->
-
-				<?php comments_template( '', true ); ?>
-
+				
 <?php endwhile; ?>
 
 			</div><!-- #content -->
