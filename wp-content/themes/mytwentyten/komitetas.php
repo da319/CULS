@@ -41,12 +41,12 @@ get_header(); ?>
 					<table>
 						<tr>
 							<?php get_committee_entry('povilas', 'Prezidentas') ?>
-							<?php get_committee_entry('gp329', 'Sekretorius') ?>
-							<?php get_committee_entry('pb475', 'Viceprezidentas') ?>
+							<?php get_committee_entry('Gediminas', 'Sekretorius') ?>
+							<?php get_committee_entry('PetrasB', 'Viceprezidentas') ?>
 						</tr>
 						<tr>
 							<?php get_committee_entry('neurte', 'Vyriausioji iždininkė') ?>
-							<?php get_committee_entry('la292aa', 'Jaunesnioji iždininkė') ?>
+							<?php get_committee_entry('Lina', 'Jaunesnioji iždininkė') ?>
 							<?php get_committee_entry('admin', 'IT') ?>
 						</tr>
 					</table>

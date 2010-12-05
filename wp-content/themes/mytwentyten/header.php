@@ -11,6 +11,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+<link rel="shortcut icon" href="<?php echo home_url( '/favicon.ico' ); ?>">
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <title><?php
 	/*
