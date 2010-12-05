@@ -21,9 +21,9 @@ get_header(); ?>
 
 				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<?php if ( is_front_page() ) { ?>
-						<h2 class="entry-title"><?php the_title(); ?></h2>
+						<h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 					<?php } else { ?>
-						<h1 class="entry-title"><?php the_title(); ?></h1>
+						<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 					<?php } ?>
 
 					<div class="entry-content">
